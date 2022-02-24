@@ -38,10 +38,18 @@ ul {
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: var(--very-dark-cyan);
+  color: white;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+main{
+  position: relative;
+  max-width: 1560px;
+  margin: 0 auto;
 }
 
 /*
@@ -470,4 +478,117 @@ body{
 .section-cta .component-cta-button{
   margin: unset;
   margin-top: 42px;  
+}
+
+
+.section-footer{
+  margin-top: 184px; 
+  height: 720px;  
+  background-color: var(--very-dark-cyan);
+  color: white;
+  
+}
+
+.section-footer-container{
+  width: min(1200px, 83.4%); 
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto;
+}
+
+.section-footer::before{
+  content: '';
+  display: block;
+  background-image: url(./images/bg-footer-top-desktop.svg);
+  width: 100%;
+  padding-bottom: 158px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: absolute; 
+  left: 0;
+  background-color: white;
+}
+
+.component-contact-info{
+  margin-top: 273px;
+  width: 340px;
+}
+
+.component-newsletter{
+  margin-top: 280px;
+  width: 520px;
+}
+
+.component-contact-info__description{
+  margin-top: 27px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.component-contact-info__item{
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.component-contact-info__social-media{
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.component-newsletter__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.component-newsletter__description{
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;  
+  width: 344px;
+}
+
+.component-newsletter__form{
+  margin-top: 40px;  
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.component-newsletter__form input{
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.component-newsletter__input{ 
+  width: 320px;  
+  padding: 0 16px; 
+
+}
+
+.component-newsletter__submit{
+  width: 160px;
+  background-color: var(--pink);
+  color: white;
+  font-weight: 700; 
+  cursor: pointer;
+}
+
+.componet-newsletter__check-email{
+  color: #FF4343;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 600;
+  margin-top: 2px;
+  display: none;
 }
