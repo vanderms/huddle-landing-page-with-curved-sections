@@ -17,23 +17,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
     rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->  
 </head>
 
 <body>
 
   <main>
-
     <div class="component-top-bar">
       <img src="./images/logo.svg" alt="Huddle logo" class="component-top-bar__logo">
       <a class='component-top-bar__cta' href="/">Try it free</a>
@@ -63,7 +52,7 @@
       </article>
     </div>
 
-    <section class="section-info">
+    <div class="section-info">
       <div class="component-info__bg-pattern-wrapper-1">
         <article class="component-info first">
           <div class="component-info__content">
@@ -98,55 +87,86 @@
           <img src="./images/illustration-your-users.svg" alt="your users" class="component-info__image">
         </article>
       </div>
+    </div>
 
+    <section class="section-cta">
+      <h2 class='section-cta__title'>Ready To Build Your Community?</h2>
+      <a class='section-cta__button' href="/">Get Started For Free</a>
     </section>
 
+    <div class="section-footer">
+      <div class="section-footer__contact">
+        <img src="./images/logo-white.svg" alt="huddle logo" class="section-footer__logo">
+        <p class="section-footer__company-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.</p>
 
+        <div class="section-footer__contact-info">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M17 12.5C15.8 12.5 14.6 12.3 13.4 11.9C13.1 11.8 12.7 11.9 12.4 12.1L10.2 14.3C7.4 12.9 5.1 10.5 3.6 7.7L5.8 5.5C6.1 5.2 6.2 4.8 6 4.5C5.7 3.4 5.5 2.2 5.5 1C5.5 0.4 5.1 0 4.5 0H1C0.4 0 0 0.4 0 1C0 10.4 7.6 18 17 18C17.6 18 18 17.6 18 17V13.5C18 12.9 17.6 12.5 17 12.5ZM16 9H18C18 4 14 0 9 0V2C12.9 2 16 5.1 16 9ZM12 9H14C14 6.2 11.8 4 9 4V6C10.7 6 12 7.3 12 9Z"
+              fill="white" />
+          </svg>
+          <span>Phone: +1-543-123-4567</span>
+        </div>
 
+        <div class="section-footer__contact-info">
+          <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18 0H2C0.9 0 0 0.9 0 2V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H16V5.2L10 9L4 5.2V14H2V2H3.2L10 6.2L16.8 2H18V14Z"
+              fill="white" />
+          </svg>
+          <span>example@huddle.com</span>
+        </div>
 
+        <div class="section-footer__social-media">
+          <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M28.8 0H3.2C1.44 0 0 1.44 0 3.2V28.8C0 30.56 1.44 32 3.2 32H28.8C30.56 32 32 30.56 32 28.8V3.2C32 1.44 30.56 0 28.8 0ZM27.2 3.2V8H24C23.04 8 22.4 8.64 22.4 9.6V12.8H27.2V17.6H22.4V28.8H17.6V17.6H14.4V12.8H17.6V8.8C17.6 5.76 20.16 3.2 23.2 3.2H27.2Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <svg width="32" height="32" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.95333 0.421496C10.5173 0.349496 11.016 0.333496 15 0.333496C18.984 0.333496 19.4827 0.350829 21.0453 0.421496C22.608 0.492163 23.6747 0.741496 24.608 1.10283C25.5853 1.47216 26.472 2.0495 27.2053 2.79616C27.952 3.52816 28.528 4.4135 28.896 5.39216C29.2587 6.3255 29.5067 7.39216 29.5787 8.95216C29.6507 10.5188 29.6667 11.0175 29.6667 15.0002C29.6667 18.9842 29.6493 19.4828 29.5787 21.0468C29.508 22.6068 29.2587 23.6735 28.896 24.6068C28.528 25.5856 27.951 26.4724 27.2053 27.2055C26.472 27.9522 25.5853 28.5282 24.608 28.8962C23.6747 29.2588 22.608 29.5068 21.048 29.5788C19.4827 29.6508 18.984 29.6668 15 29.6668C11.016 29.6668 10.5173 29.6495 8.95333 29.5788C7.39333 29.5082 6.32666 29.2588 5.39333 28.8962C4.41456 28.5281 3.52776 27.9512 2.79466 27.2055C2.0485 26.4731 1.47108 25.5867 1.10266 24.6082C0.741328 23.6748 0.493328 22.6082 0.421328 21.0482C0.349328 19.4815 0.333328 18.9828 0.333328 15.0002C0.333328 11.0162 0.350662 10.5175 0.421328 8.95483C0.491995 7.39216 0.741328 6.3255 1.10266 5.39216C1.47163 4.4136 2.04949 3.52725 2.79599 2.79483C3.52805 2.04883 4.41396 1.47142 5.39199 1.10283C6.32533 0.741496 7.39199 0.493496 8.95199 0.421496H8.95333ZM20.9267 3.0615C19.38 2.99083 18.916 2.97616 15 2.97616C11.084 2.97616 10.62 2.99083 9.07333 3.0615C7.64266 3.12683 6.86666 3.3655 6.34933 3.56683C5.66533 3.8335 5.17599 4.1495 4.66266 4.66283C4.17605 5.13623 3.80157 5.71254 3.56666 6.3495C3.36533 6.86683 3.12666 7.64283 3.06133 9.0735C2.99066 10.6202 2.97599 11.0842 2.97599 15.0002C2.97599 18.9162 2.99066 19.3802 3.06133 20.9268C3.12666 22.3575 3.36533 23.1335 3.56666 23.6508C3.80133 24.2868 4.17599 24.8642 4.66266 25.3375C5.13599 25.8242 5.71333 26.1988 6.34933 26.4335C6.86666 26.6348 7.64266 26.8735 9.07333 26.9388C10.62 27.0095 11.0827 27.0242 15 27.0242C18.9173 27.0242 19.38 27.0095 20.9267 26.9388C22.3573 26.8735 23.1333 26.6348 23.6507 26.4335C24.3347 26.1668 24.824 25.8508 25.3373 25.3375C25.824 24.8642 26.1987 24.2868 26.4333 23.6508C26.6347 23.1335 26.8733 22.3575 26.9387 20.9268C27.0093 19.3802 27.024 18.9162 27.024 15.0002C27.024 11.0842 27.0093 10.6202 26.9387 9.0735C26.8733 7.64283 26.6347 6.86683 26.4333 6.3495C26.1667 5.6655 25.8507 5.17616 25.3373 4.66283C24.8639 4.17626 24.2876 3.80178 23.6507 3.56683C23.1333 3.3655 22.3573 3.12683 20.9267 3.0615V3.0615ZM13.1267 19.5215C14.1729 19.957 15.3378 20.0158 16.4226 19.6878C17.5073 19.3598 18.4445 18.6654 19.0741 17.7232C19.7038 16.7809 19.9867 15.6493 19.8747 14.5216C19.7627 13.3939 19.2627 12.3401 18.46 11.5402C17.9483 11.0288 17.3296 10.6372 16.6484 10.3937C15.9673 10.1501 15.2406 10.0606 14.5207 10.1316C13.8007 10.2027 13.1055 10.4324 12.4851 10.8043C11.8646 11.1763 11.3343 11.6812 10.9324 12.2826C10.5305 12.8841 10.2669 13.5672 10.1607 14.2828C10.0545 14.9983 10.1082 15.7286 10.318 16.4209C10.5279 17.1131 10.8886 17.7503 11.3743 18.2865C11.8599 18.8226 12.4584 19.2444 13.1267 19.5215ZM9.66933 9.6695C10.3694 8.96946 11.2004 8.41417 12.1151 8.03531C13.0297 7.65646 14.01 7.46146 15 7.46146C15.99 7.46146 16.9703 7.65646 17.8849 8.03531C18.7996 8.41417 19.6306 8.96946 20.3307 9.6695C21.0307 10.3695 21.586 11.2006 21.9648 12.1152C22.3437 13.0299 22.5387 14.0102 22.5387 15.0002C22.5387 15.9902 22.3437 16.9705 21.9648 17.8851C21.586 18.7997 21.0307 19.6308 20.3307 20.3308C18.9169 21.7446 16.9994 22.5389 15 22.5389C13.0006 22.5389 11.0831 21.7446 9.66933 20.3308C8.25555 18.917 7.46129 16.9995 7.46129 15.0002C7.46129 13.0008 8.25555 11.0833 9.66933 9.6695V9.6695ZM24.2107 8.58416C24.3841 8.42052 24.523 8.22374 24.6191 8.00546C24.7151 7.78718 24.7664 7.55185 24.7699 7.3134C24.7734 7.07495 24.729 6.83823 24.6393 6.61724C24.5497 6.39626 24.4166 6.19551 24.2479 6.02688C24.0793 5.85825 23.8786 5.72517 23.6576 5.63552C23.4366 5.54587 23.1999 5.50146 22.9614 5.50494C22.723 5.50842 22.4876 5.5597 22.2694 5.65576C22.0511 5.75181 21.8543 5.89069 21.6907 6.06416C21.3724 6.40153 21.1982 6.84966 21.2049 7.3134C21.2117 7.77715 21.3989 8.22 21.7269 8.54795C22.0548 8.8759 22.4977 9.06313 22.9614 9.06989C23.4252 9.07665 23.8733 8.90242 24.2107 8.58416V8.58416Z"
+                fill="white" />
+            </svg>
+          </a>
+          <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M28.8 0H3.2C1.44 0 0 1.44 0 3.2V28.8C0 30.56 1.44 32 3.2 32H28.8C30.56 32 32 30.56 32 28.8V3.2C32 1.44 30.56 0 28.8 0ZM25.12 11.68C24.96 19.04 20.32 24.16 13.28 24.48C10.4 24.64 8.32 23.68 6.4 22.56C8.48 22.88 11.2 22.08 12.64 20.8C10.56 20.64 9.28 19.52 8.64 17.76C9.28 17.92 9.92 17.76 10.4 17.76C8.48 17.12 7.2 16 7.04 13.44C7.52 13.76 8.16 13.92 8.8 13.92C7.36 13.12 6.4 10.08 7.52 8.16C9.6 10.4 12.16 12.32 16.32 12.64C15.2 8.16 21.28 5.76 23.68 8.8C24.8 8.64 25.6 8.16 26.4 7.84C26.08 8.96 25.44 9.6 24.64 10.24C25.44 10.08 26.24 9.92 26.88 9.6C26.72 10.4 25.92 11.04 25.12 11.68Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Ready To Build Your Community?
-    Get Started For Free
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-    vestibulum a, ultrices quis sem.
-
-    Phone: +1-543-123-4567
-    example@huddle.com
-
-    Newsletter
-    To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-    send you spam or pass on your email address
-
-    Subscribe
-
-
+      <div class="component-newsletter">
+        <div class="component-newsletter__title">NEWSLETTER</div>
+        <div class="component-newsletter__description">To recieve tips on how to grow your community, sign up to our
+          weekly newsletter. We'll never
+          send you spam or pass on your email address</div>
+      </div>
+      <form action="/" class="component-newsletter__form">
+        <input type="email" class="component-newsletter__input" required>
+        <input class='component-newsletter__submit' type="submit" value="Subscribe">
+      </form>
+    </div>
   </main>
-
-
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+  <script>
+
+
+  </script>
 </body>
 
 </html>
