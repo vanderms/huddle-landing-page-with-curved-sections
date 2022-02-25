@@ -360,7 +360,7 @@ main, footer{
 }
 
 .component-info.third{
-  margin-top: 20px;
+  margin-top: -65px;
 }
 
 .component-info.first .component-info__image{
@@ -400,6 +400,10 @@ main, footer{
 
   .section-info{
     margin-top: 26px;   
+  }
+
+  .component-info.third{
+    margin-top: 0px;
   }
   
   .component-info, .component-info.first, .component-info.second {
